@@ -456,6 +456,11 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
+
+{% include install_instructions/r.html %}
+{% include install_instructions/shell.html %}
+
+
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
